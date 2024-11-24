@@ -1,10 +1,22 @@
 body{
+    margin:0;
+    padding:0;
+    font-family: "Instrument Serif";
+    background: white;
+    display:flex;
+    flex-direction:column;
+    justify-items: space-between;
+}
+.main{
+    margin: 25px auto;
+    /* border: 2px rebeccapurple solid; */
+}
+.container{
+    /* border: 2px red solid; */
+    padding: 25px;
     display: flex;
     flex-direction: column;
-    font-family: "Instrument Serif";
-    margin: 0;
-    padding: 0;
-    
+    justify-content: center;
 }
 .title{
     font-size: 96px;
@@ -13,18 +25,23 @@ body{
 .text_field{
     width: 691px;
     height: 94px;
+    margin-top: -75px;
+    padding-left: 25px;
+    font-family: "Poppins";
+    font-weight: 500;
     background-color: #D9D9D9;
     color: black;
     border-radius: 21px;
     border: none;
-    padding: 0 12px 0 12px;
 }
-.main{
+.cta_to_enter{
     text-align: center;
-    width: 100%;
-    
+}
+.cta_to_enter > span{
+    background-color: blue;
+    color: #D9D9D9;
 }
 .footer{
+
     text-align: center;
 }
-
